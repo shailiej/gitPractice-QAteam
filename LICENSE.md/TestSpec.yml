@@ -1,13 +1,15 @@
-    lifecycle:
+lifecycle:
     - message: 
         contents: "GENERATING THE SUPPORT BUNDLE!!!!"
     - generate: {}
     - upload:
         prompt: 
-          message: "Let's Upload"
-          accept: "Yay Upload done!"
-          decline: "Fine. Bye"
+          message: "SUCCESSFUL!! DO YOU WISH TO UPLOAD THIS BUNDLE FOR ANALYSIS????? - "
+          accept: "UPLOAD SUCCESSFUL!"
+          decline: "Never mind See You Again!"
           default: true
+
+
 
 
 specs:
